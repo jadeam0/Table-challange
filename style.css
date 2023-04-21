@@ -48,3 +48,76 @@ li {
     height: 20px;
     margin-right: 10px;
 }
+
+/* styling form */
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 40px;
+}
+
+fieldset{
+    padding: 40px;
+    border: solid 1px #aaa;
+    background-color: aqua;
+
+}
+
+input[type="text"] , 
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 0 0 30px;
+    border: solid 1px #454545;
+    border-top: none;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+label {
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(135, 51, 51);
+    display: block;
+    width: 50%;
+    padding: 2%;
+    color: white;
+}
+
+input[type="submit"]{
+    background: none;
+    background-color: rgb(210, 184, 11);
+    height: 40px;
+    border: solid 1px #777;
+    padding: 0 40px;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="submit"]:active {
+    border-color: #111;
+    outline-color: blue;
+}
+
+/* footer */
+
+img {
+    /* margin: 60px; */
+    width: 60px;
+    /* height: 60px; */
+}
